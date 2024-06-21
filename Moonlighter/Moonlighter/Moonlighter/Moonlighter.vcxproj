@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d8a5bfe7-bf99-4b89-8a1b-f356e3ff3a32}</ProjectGuid>
+    <RootNamespace>Moonlighter</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Arrow.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="BasicProj.h" />
+    <ClInclude Include="BasicRoom.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="BombKirby.h" />
+    <ClInclude Include="BossRoom.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CollisionMgr.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Cutting.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="DisplayItem.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="DungeonDoor.h" />
+    <ClInclude Include="DungeonRoom.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="FireShield.h" />
+    <ClInclude Include="ForestDungeon.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FruitTurret.h" />
+    <ClInclude Include="GameMgr.h" />
+    <ClInclude Include="GiantBud.h" />
+    <ClInclude Include="GolemDungeon.h" />
+    <ClInclude Include="GolemKing.h" />
+    <ClInclude Include="GolemPunch.h" />
+    <ClInclude Include="GolemSoldier.h" />
+    <ClInclude Include="HealingPool.h" />
+    <ClInclude Include="HiddenMap.h" />
+    <ClInclude Include="Home.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Loading.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MapCenter.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Moonlighter.h" />
+    <ClInclude Include="Mushroom.h" />
+    <ClInclude Include="MusicBox.h" />
+    <ClInclude Include="MyResource.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PositionDoor.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="PuzzleRoom.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceMgr.h" />
+    <ClInclude Include="Rocks.h" />
+    <ClInclude Include="SceneDoor.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="Scenes.h" />
+    <ClInclude Include="SeedProj.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Slime.h" />
+    <ClInclude Include="SlimeBullet.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Spear.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TentacleRoot.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TileEditor.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="Town.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="UIMgr.h" />
+    <ClInclude Include="WindLeaf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Arrow.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="BasicProj.cpp" />
+    <ClCompile Include="BasicRoom.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="BombKirby.cpp" />
+    <ClCompile Include="BossRoom.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollisionMgr.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Cutting.cpp" />
+    <ClCompile Include="DisplayItem.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="DungeonDoor.cpp" />
+    <ClCompile Include="DungeonRoom.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="FireShield.cpp" />
+    <ClCompile Include="ForestDungeon.cpp" />
+    <ClCompile Include="FruitTurret.cpp" />
+    <ClCompile Include="GameMgr.cpp" />
+    <ClCompile Include="GiantBud.cpp" />
+    <ClCompile Include="GolemDungeon.cpp" />
+    <ClCompile Include="GolemKing.cpp" />
+    <ClCompile Include="GolemPunch.cpp" />
+    <ClCompile Include="GolemSoldier.cpp" />
+    <ClCompile Include="HealingPool.cpp" />
+    <ClCompile Include="HiddenMap.cpp" />
+    <ClCompile Include="Home.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Loading.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MapCenter.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Moonlighter.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="MusicBox.cpp" />
+    <ClCompile Include="MyResource.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PositionDoor.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="PuzzleRoom.cpp" />
+    <ClCompile Include="ResourceMgr.cpp" />
+    <ClCompile Include="Rocks.cpp" />
+    <ClCompile Include="SceneDoor.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="Scenes.cpp" />
+    <ClCompile Include="SeedProj.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="SlimeBullet.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Spear.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="TentacleRoot.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileEditor.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="Town.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="UIMgr.cpp" />
+    <ClCompile Include="WindLeaf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Moonlighter.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Moonlighter.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

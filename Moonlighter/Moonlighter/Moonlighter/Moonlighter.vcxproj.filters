@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{e16c1928-4121-45c2-b418-094d2c878dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{48eef984-2a34-411a-8c59-5b65ef5d28cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager">
+      <UniqueIdentifier>{6ad7f0eb-facf-4221-b5f5-e7eed073c658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\00. KeyManager">
+      <UniqueIdentifier>{85b79875-70ec-4fc6-8fd3-30e32c5503d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Base">
+      <UniqueIdentifier>{7794a8b2-e7ac-4d2f-9ccd-c267a6b916ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived">
+      <UniqueIdentifier>{47d29532-af56-4c18-a722-c6855d48ef64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\02. ResourceManager">
+      <UniqueIdentifier>{140e14f6-17a9-4239-8734-5fefb03da219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\01. SceneManager">
+      <UniqueIdentifier>{ad46e6a6-b36a-46be-b3d5-7a6f9f679170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\02. ResourceManager\MyResource">
+      <UniqueIdentifier>{4707ff66-ecd8-424b-9e23-6234ab120557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\02. ResourceManager\MyResource\00. Base">
+      <UniqueIdentifier>{7a41ec2a-9005-4c77-8c62-7cc62a3ef9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived">
+      <UniqueIdentifier>{8a96fb99-775b-4b07-9ed0-823b97811095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\03. CollisionMgr">
+      <UniqueIdentifier>{e507b93b-38ac-4a88-a5b7-68538a1a6690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes">
+      <UniqueIdentifier>{84cb8489-d965-4cbd-9202-9876740127c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Component">
+      <UniqueIdentifier>{c74a1b03-855c-46b7-a722-6549a509e0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Headers">
+      <UniqueIdentifier>{6ee46093-ddc5-4875-be0e-68e8790d1710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\00. Base">
+      <UniqueIdentifier>{98afc14e-092c-45cb-aefc-3009fa026344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived">
+      <UniqueIdentifier>{09bb7b56-0f0d-4491-b805-9d6d060d6c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature">
+      <UniqueIdentifier>{0e33df2d-7168-4d03-a9b4-1713c88c0a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\01. Projectile">
+      <UniqueIdentifier>{cfe2cec1-35af-43e2-9160-cac163fd5caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\02. Item">
+      <UniqueIdentifier>{0c62ce6b-e544-4d25-aa6e-3e74dadaab62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\03. Tile">
+      <UniqueIdentifier>{bc0cb43a-15e1-4ea0-beb3-62da43e117da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\00. MainMenu">
+      <UniqueIdentifier>{5db22722-89f0-4bfc-af58-30b8751dfdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\02. Dungeon2">
+      <UniqueIdentifier>{d3a5c23f-5176-4d3f-98e1-9454320b92e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\01. Dungeon1">
+      <UniqueIdentifier>{257d2467-86ba-4842-9168-bf19007d5d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\03. Town">
+      <UniqueIdentifier>{3e0b3675-f94d-4d09-b47b-30ff36c8ecd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\04. Editor">
+      <UniqueIdentifier>{00f3c469-2b83-43bc-a8d8-e8da24bdd7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\04. UIManager">
+      <UniqueIdentifier>{d7e446af-62a9-463a-905a-4f827635ef28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\05. GameManager">
+      <UniqueIdentifier>{503c7d81-7a78-4dd5-a0d8-f0a8ec2cac44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\06.TimeManager">
+      <UniqueIdentifier>{06c9240f-7615-49f0-af17-ad1754a71b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\00. Player">
+      <UniqueIdentifier>{438492bf-80eb-4063-b60a-bcff69382d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\01.Monster">
+      <UniqueIdentifier>{95b98315-93d2-4b9d-bf55-bfb837103c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\01.Monster\00. Base">
+      <UniqueIdentifier>{240f0e04-b3be-4b0b-bf7c-ae7b17283d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived">
+      <UniqueIdentifier>{b0d6dc93-8fd6-40a1-91ca-69babeea4caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Boss">
+      <UniqueIdentifier>{802fbebd-47cf-4d79-8c5f-457f36ecc4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field">
+      <UniqueIdentifier>{5ab5b7d2-5876-4f5d-8a4c-e3d24bb953c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\05. Loading">
+      <UniqueIdentifier>{9378136b-f628-4849-93bc-ac1505598ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\03. Tile\00. Base">
+      <UniqueIdentifier>{f5240d81-2604-4656-8286-1a0a43ab5542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\03. Tile\01. Derived">
+      <UniqueIdentifier>{3259e7ad-39ec-4d3a-9a8a-04fc73d1d0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\01. Projectile\00. Base">
+      <UniqueIdentifier>{15152dd9-0d94-4c99-b26e-63a3c80ff55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\01. Projectile\01. Derived">
+      <UniqueIdentifier>{8cb46748-f658-441a-ad3d-b78be5be2020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player">
+      <UniqueIdentifier>{64573510-0740-43b1-8334-8ff7dfc06b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster">
+      <UniqueIdentifier>{d7b2557e-f175-46a7-835a-2b4e1e44f56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\08. Camera">
+      <UniqueIdentifier>{bf1c937b-9da0-4aff-8d77-ea9d40efbcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\04. MapCenter">
+      <UniqueIdentifier>{fbe51422-78fa-4989-b4f5-11bbf62d58ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map">
+      <UniqueIdentifier>{d2e1345a-a37e-45a9-9c8b-f615dbe90736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map\00. Dungeon">
+      <UniqueIdentifier>{ad508926-6abf-4d2c-94e7-16838a3dcfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map\00. Dungeon\00. Base">
+      <UniqueIdentifier>{64263c1c-d02e-4890-b34d-199cc871145a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map\00. Dungeon\01. Derived">
+      <UniqueIdentifier>{0021301e-f69f-4cc7-b20c-43d130a169bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\05. Door">
+      <UniqueIdentifier>{7a5fa520-35ca-4aeb-9439-01dd85833f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\09. SoundManager">
+      <UniqueIdentifier>{d87e2057-a011-4a99-a1b6-e7ab8788c323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\05. Door\00. Base">
+      <UniqueIdentifier>{0547052d-d0f2-4091-b3f5-71e63f2c12ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\05. Door\01. Derived">
+      <UniqueIdentifier>{fa5d631a-ac17-41cb-a588-472ab65ca9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Manager\04. UIManager\UI">
+      <UniqueIdentifier>{ad4f8dd6-1272-4e30-a054-9c15f1fc58d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\06. Effect">
+      <UniqueIdentifier>{382515e2-66b5-4a52-bc66-8fc836e33219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map\02. Shop">
+      <UniqueIdentifier>{9e964f7d-c75f-40cd-8450-30bbffe900c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Scenes\01. Derived\06. Home">
+      <UniqueIdentifier>{46f3e7f4-1b5d-4762-b5d3-03f2ecfaf1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Map\03. HomeShop">
+      <UniqueIdentifier>{df141d94-c327-480f-80bd-2e07857a2217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Derived\07. Customer">
+      <UniqueIdentifier>{2e46a0a5-4138-4324-a6ef-7fe9edd8641a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Moonlighter.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Object\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\02. Manager\00. KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\02. Manager\01. SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>소스 파일\02. Manager\02. ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MyResource.h">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>소스 파일\02. Manager\03. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.h">
+      <Filter>소스 파일\03. Scenes\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\00. MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GolemDungeon.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\01. Dungeon1</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEditor.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\04. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>소스 파일\02. Manager\04. UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>소스 파일\02. Manager\05. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonRoom.h">
+      <Filter>소스 파일\06. Map\00. Dungeon\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicRoom.h">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GolemKing.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\05. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="GolemPunch.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocks.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Spear.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeBullet.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GolemSoldier.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicProj.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\02. Manager\08. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCenter.h">
+      <Filter>소스 파일\01. Object\01. Derived\04. MapCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\02. Manager\06.TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\03. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\02. Manager\09. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionDoor.h">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDoor.h">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenMap.h">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="GiantBud.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestDungeon.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\02. Dungeon2</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedProj.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TentacleRoot.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Cutting.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitTurret.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="WindLeaf.h">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>소스 파일\02. Manager\04. UIManager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\01. Object\01. Derived\02. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>소스 파일\01. Object\01. Derived\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>소스 파일\06. Map\02. Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonDoor.h">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="BombKirby.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingPool.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>소스 파일\03. Scenes\01. Derived\06. Home</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>소스 파일\01. Object\01. Derived\07. Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayItem.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleRoom.h">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="FireShield.h">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicBox.h">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Moonlighter.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Moonlighter.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Moonlighter.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Object\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\02. Manager\00. KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\02. Manager\01. SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>소스 파일\02. Manager\02. ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MyResource.cpp">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\02. Manager\02. ResourceManager\MyResource\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>소스 파일\02. Manager\03. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>소스 파일\03. Scenes\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\00. MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GolemDungeon.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\01. Dungeon1</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEditor.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\04. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>소스 파일\02. Manager\04. UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>소스 파일\02. Manager\05. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonRoom.cpp">
+      <Filter>소스 파일\06. Map\00. Dungeon\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicRoom.cpp">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GolemKing.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\05. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="GolemPunch.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocks.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Spear.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeBullet.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GolemSoldier.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicProj.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\02. Manager\08. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCenter.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\04. MapCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\02. Manager\06.TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\03. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\02. Manager\09. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDoor.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionDoor.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenMap.cpp">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GiantBud.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestDungeon.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\02. Dungeon2</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedProj.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TentacleRoot.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Cutting.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitTurret.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="WindLeaf.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\00. Creature\01.Monster\01. Derived\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\02. Manager\04. UIManager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\02. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\06. Map\02. Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonDoor.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\05. Door\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="BombKirby.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="HealingPool.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>소스 파일\03. Scenes\01. Derived\06. Home</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\07. Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayItem.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleRoom.cpp">
+      <Filter>소스 파일\06. Map\00. Dungeon\01. Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="FireShield.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\01. Projectile\01. Derived\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicBox.cpp">
+      <Filter>소스 파일\01. Object\01. Derived\03. Tile\01. Derived</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
